@@ -13,7 +13,7 @@ print(f'Starting statistical analysis for participants {participants[0]} to {par
 processor = CrossCorrelationProcessor(main_path, participants)
 
 stats_data_path = processor.res_path + 'Data_Plots/'
-#processor.run_all_statistics(stats_data_path)
+processor.run_all_statistics(stats_data_path)
 
 processor.evaluate_listening_effort(stats_data_path)
 processor.evaluate_comprehension_questions(stats_data_path)
