@@ -79,6 +79,6 @@ The dataset used in our publication, including recorded speech-DPOAE data, speec
 ## Citation
 If you use this repository in your research, please cite our paper:
 
-> Your Name *et al.*, "Your Paper Title", *Nature Communications*, 2025. DOI: [link]  
+> XXX
 
 A `CITATION.cff` file is provided for automated citation tools.
