@@ -1,7 +1,7 @@
 from stimulus_generation import stimulus_generator, multiband_generator
 
-data_path = '/Users/dy33ceqe/Documents/Objective1/dpoae-attention-data/'
-books = ['Polarnacht_female', 'Polarnacht_male', 'Darum_female', 'Darum_male']
+data_path = 'Path/to/your/data' # update this to the path where your speech signals are
+books = ['Polarnacht_female', 'Polarnacht_male', 'Darum_female', 'Darum_male'] # folder names that contain .wav files
 harms_male = [[6, 15], [8, 18]] # [n1, n2] for male voice
 harms_female = [[7, 15], [9, 18]] # [n1, n2] for female voice
 harms = [harms_female, harms_male, harms_female, harms_male]
@@ -30,7 +30,7 @@ print('--' * 30 + '\n')
 print('Creating multiband stimuli...\n')
 
 mg = multiband_generator(
-    stim_directory='/Users/dy33ceqe/Documents/Objective1/dpoae-attention-data/stimuli',
+    stim_directory=''Path/to/your/data' + '/stimuli', # update this to the path where your speech signals are and add subfolder 'stimuli'
     bookA='Polarnacht_female',
     bookB='Darum_male',
     fs=44100
@@ -42,7 +42,7 @@ mg.create_multiband_competingspeaker(mg.bookA, mg.bookB, harms_female[0], harms_
 mg.mix_books(data_path + 'source_audios', 'Polarnacht_female', 'Darum_male')
 
 mg_switch = multiband_generator(
-    stim_directory='/Users/dy33ceqe/Documents/Objective1/dpoae-attention-data/stimuli',
+    stim_directory=''Path/to/your/data' + '/stimuli',
     bookA='Polarnacht_male',
     bookB='Darum_female',
     fs=44100
