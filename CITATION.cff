@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the following preprint:"
+title: "Code for speech-DPOAE stimulus generation and analysis"
+authors:
+  - family-names: "Steinebach"
+    given-names: "Janna"
+    orcid: "https://orcid.org/0009-0005-7171-1760"
+  - family-names: "Reichenbach"
+    given-names: "Tobias"
+    orcid: "https://orcid.org/0000-0003-3367-3511"
+date-released: 2025-08-14
+version: "1.0.0"
+type: article
+identifiers:
+  - type: doi
+    value: DOI
+  - type: url
+    value: ARXIV-Url
+repository-code: "https://github.com/janna-stb/dpoae_attention_study.git"
+license: MIT
