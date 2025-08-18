@@ -2,7 +2,7 @@
 
 This repository contains the code used in our study on **distortion product otoacoustic emissions (DPOAEs)** evoked by human running speech (speech-DPOAEs).
 
-If you use this code, **please cite**: [LINK](https://doi.org/10.1101/2025.08.15.670505)  
+If you use this code, **please cite**: [https://doi.org/10.1101/2025.08.15.670505](https://doi.org/10.1101/2025.08.15.670505)  
 
 The repository includes:
 - **Stimulus generation** code to reproduce (or modify) the stimuli used in our experiment. This part works independently of our experimental setup and can be directly applied (“plug-and-play”).
