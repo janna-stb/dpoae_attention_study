@@ -2,7 +2,7 @@
 
 This repository contains the code used in our study on **distortion product otoacoustic emissions (DPOAEs)** evoked by human running speech (speech-DPOAEs).
 
-If you use this code, **please cite**: LINK  
+If you use this code, **please cite**: [LINK](https://doi.org/10.1101/2025.08.15.670505)  
 
 The repository includes:
 - **Stimulus generation** code to reproduce (or modify) the stimuli used in our experiment. This part works independently of our experimental setup and can be directly applied (“plug-and-play”).
@@ -79,6 +79,6 @@ The dataset used in our publication, including recorded speech-DPOAE data, speec
 ## Citation
 If you use this repository in your research, please cite our paper:
 
-> XXX
+> Steinebach J and Reichenbach T. *The inner ear's active process contributes to selective attention to speech in noise*. bioRxiv 2025.08.15.670505; doi: [https://doi.org/10.1101/2025.08.15.670505](https://doi.org/10.1101/2025.08.15.670505)
 
 A `CITATION.cff` file is provided for automated citation tools.
