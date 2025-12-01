@@ -79,6 +79,6 @@ The dataset used in our publication, including recorded speech-DPOAE data, speec
 ## Citation
 If you use this repository in your research, please cite our paper:
 
-> Steinebach J and Reichenbach T. *The inner ear's active process contributes to selective attention to speech in noise*. bioRxiv 2025.08.15.670505; doi: [https://doi.org/10.1101/2025.08.15.670505](https://doi.org/10.1101/2025.08.15.670505)
+> Steinebach J and Reichenbach T. *Attention to Speech Modulates Distortion Product Otoacoustic Emissions Evoked by Speech-derived Stimuli in Humans*. bioRxiv 2025.08.15.670505; doi: [https://doi.org/10.1101/2025.08.15.670505](https://doi.org/10.1101/2025.08.15.670505)
 
 A `CITATION.cff` file is provided for automated citation tools.
